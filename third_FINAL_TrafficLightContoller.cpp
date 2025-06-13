@@ -284,6 +284,7 @@ int main() {
     pinMode(PED_RED, OUTPUT);
     pinMode(PED_GREEN, OUTPUT);
     pinMode(BUTTON_PIN, INPUT);
+    pullUpDnControl(BUTTON_PIN,PUD_UP);
     pinMode(BUZZER_PIN, OUTPUT);
 
     digitalWrite(CAR_GREEN, HIGH);
