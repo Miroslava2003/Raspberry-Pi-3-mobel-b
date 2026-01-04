@@ -59,6 +59,9 @@ The documentation includes:
 1. Clone the repository on a Raspberry Pi:
    ```bash
    git clone https://github.com/Miroslava2003/Raspberry-Pi-3-mobel-b.git
+   g++ third_FINAL_TrafficLightController.cpp -o traffic
+   sudo ./traffic
+
 
 
 ## 📽 Demo Video
