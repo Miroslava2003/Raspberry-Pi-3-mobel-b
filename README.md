@@ -78,8 +78,12 @@ The project demonstrates the implementation of traffic light logic for an embedd
 - `third_FINAL_TrafficLightController.cpp`  
   Final version of the traffic light controller
 
-- `TrafficLightController.mp4`  
-  Demonstration video of the project in action
+## 📽 Demo Video
+🎥 **Project demonstration video:**  
+➡️ [Watch the demo](https://drive.google.com/file/d/1tWKDmGcqH2fJHqTLqak5dqiveMtW-ieS/view?usp=sharing)
+
+*(The video demonstrates the traffic light system running on Raspberry Pi 3 Model B.)*
+
 
 ---
 
