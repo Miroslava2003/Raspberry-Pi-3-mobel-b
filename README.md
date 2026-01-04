@@ -14,19 +14,24 @@ The project demonstrates the implementation of traffic light logic for an embedd
 
 ## 🛠 Technologies
 - **C++**
-- **Raspberry Pi 3 Model B**
+- **Raspberry Pi 3**
+- **WiringPi**
 - **GPIO**
+- **I2C communication**
+- **OLED SH1106 Display**
+- **Multithreading (std::thread, mutex, condition_variable)**
 - **Linux**
-- **WiringPi / GPIO libraries**
 
 ---
 
 ## ⚙️ Features
-- Traffic light control logic
-- GPIO pin manipulation
-- Time-based light switching
-- Multiple implementations showing project evolution
-- Embedded systems and hardware–software interaction
+- Pedestrian button request system  
+- Countdown timer displayed on OLED (large digits)  
+- Sound signal (buzzer) for visually impaired pedestrians  
+- Full traffic light logic for vehicles and pedestrians  
+- Ethernet connection monitoring  
+- Multithreaded architecture  
+- Safe shutdown on Ctrl+C or network failure 
 
 ---
 
@@ -36,6 +41,19 @@ The project demonstrates the implementation of traffic light logic for an embedd
 - `third_FINAL_TrafficLightController.cpp` – final version  
 
 ---
+
+## 📄 Documentation
+
+📘 **Full project documentation (PDF):**  
+➡️ [View documentation](Pedestrian_Traffic_Light_Documentation.pdf)
+
+The documentation includes:
+- System overview
+- Hardware setup
+- Algorithm description
+- Flowcharts
+- Source code explanation
+- Future improvements
 
 ## ▶️ How to run
 1. Clone the repository on a Raspberry Pi:
